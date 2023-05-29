@@ -14,8 +14,8 @@ body {
 
 .box {
     border: 1px solid #fff;
-    height: 200px; /* Altura */
-    width: 200px; /* Largura */
+    height: 250px; /* Altura */
+    width: 250px; /* Largura */
     transition: filter 0.4s;
     cursor: pointer;
 }
