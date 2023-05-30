@@ -24,7 +24,7 @@ body {
     filter: brightness(0.6);
 }
 
-.red {
+.pink {
     background-color: rgb(252, 0, 168);
 }
 
@@ -73,6 +73,55 @@ body {
     bottom: calc(50% - 100px);
     right: calc(50% - 100px);;
 }
+
+.box2 {
+    border: 1px solid #fff;
+    height: 50px; /* Altura */
+    width: 50px; /* Largura */
+    transition: filter 0.4s;
+    cursor: pointer;   
+}
+
+.lightpink {
+    background-color: rgb(255, 161, 224);
+}
+
+.lightblue {
+    background-color: rgb(141, 141, 247);
+}
+
+.lightgreen {
+    background-color: rgb(154, 241, 154);
+}
+
+.lightyellow {
+    background-color: rgb(245, 245, 172);
+}
+
+.tl {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.tr {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.bl {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.br {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
 
 /* Botão de Adicionar */
 
